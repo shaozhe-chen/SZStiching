@@ -1,0 +1,39 @@
+PODS:
+  - CTAssetsPickerController (3.3.2-alpha):
+    - PureLayout (~> 3.0.0)
+  - Masonry (1.1.0)
+  - PureLayout (3.0.0)
+  - SVProgressHUD (2.2.5)
+  - Toast (4.0.0)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - CTAssetsPickerController (~> 3.3.2-alpha)
+  - Masonry
+  - PureLayout (= 3.0.0)
+  - SVProgressHUD
+  - Toast
+  - YYKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTAssetsPickerController
+    - Masonry
+    - PureLayout
+    - SVProgressHUD
+    - Toast
+    - YYKit
+
+SPEC CHECKSUMS:
+  CTAssetsPickerController: ef06977de8e0b6d6ff11a324d357a12335a61243
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PureLayout: 270dfee2236f697ab1d5e2771c2e5c248495fa0d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: f640607ecaf2df0c1da26cf28461e5e80cdfb563
+
+COCOAPODS: 1.5.3

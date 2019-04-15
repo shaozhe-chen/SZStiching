@@ -1,0 +1,60 @@
+/* 
+  Localizable.strings
+  SZStiching
+
+  Created by chenshaozhe on 2018/11/23.
+  Copyright © 2018年 chenshaozhe. All rights reserved.
+*/
+"长图拼接" = "Stitching";
+
+"自动拼接" = "AutoStitch";
+
+"这里藏了其它功能哟！" = "Here are other features hidden! ";
+
+"点击可以选择图片，开始拼图！" = "Click to select the picture and start long picture stitching!";
+
+"选择完图片之后，点击“自动拼接”，可实现长图自动拼接哦！" = "After selecting the picture, click “Automatic stitching” to realize automatic stitching of long images!";
+
+"简单拼接，不去掉重复部分，简单的把图片的尾部和头部直接拼接成长图，然后保存到相册！" = "Simple splicing, without removing the repeating part, simply splicing the tail and head of the picture directly into the growth chart, and then saving to the album!";
+
+"如果选择的图片不需要了，可以点击该按钮，清空已选择的图片！" = "If the selected image is not needed, you can click this button to empty the selected image! ";
+
+"解锁无限制版，可以让您体验最大10张图的拼接效果哦" = "Unlock the unlimited version, let you experience the stitching effect of up to 10 images!";
+
+"拼接图片需要2张以上的图片哟！" = "More than 2 pictures are needed for stitching pictures!";
+
+"保存图片失败" = "Failed to save image to album!";
+
+"保存图片成功" = "Save image to album successfully!";
+
+"没有足够的图片拼接" = "Not enough picture stitching!";
+
+"获取相册权限" = "Get album permissions！";
+"拼接图片需要打开相册选择图片，若需开启相册权限可以点击确定前往" = "If you want to open the album permission, you can click the OK button to splicing the image！";
+
+"取消" = "Cancel";
+
+"确定" = "OK";
+
+"保存" = "Save";
+
+"图片编辑" = "Picture editing";
+
+"图片已经自动识别并拼接好啦，点击‘保存’就可以保存到相册啦" = "The image has been automatically recognized and stitched together. Click ‘Save’ to save it to the album！";
+
+"点击编辑按钮，编辑按钮上下两张图片可以上下拖动调整位置哦" = "Click the Edit button, and the upper and lower images of the Edit button can be dragged up and down to adjust the position!";
+
+"图拼拼" = "Stitching";
+
+"确保图片有10%左右的重叠部分" = "Make sure the image has about 10% overlap!";
+
+"自动拼接如果存在误差，可以手动调整哦" = "Automatic stitching can be adjusted manually if there is an error!";
+
+"您只有一张图片，无法拼接，不需要保存" = "You only have one picture, can't be stitched, don't need to save!";
+
+"拼接图片需要2张以上的图片哟" = "More than 2 pictures are needed for stitching pictures!";
+
+"结束编辑" = "endEdit";
+
+"6元解锁最大8张图片的拼图功能" = "0.99$ unlock the maximum 8 pictures of the puzzle function";
+"12元解锁最大15张图片的拼图功能" = "1.99$ unlock the maximum 15 pictures of the puzzle function";

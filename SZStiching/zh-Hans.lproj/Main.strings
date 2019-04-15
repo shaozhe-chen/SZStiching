@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "自动拼接"; ObjectID = "7JJ-fo-JVx"; */
+"7JJ-fo-JVx.normalTitle" = "自动拼接";
+
+/* Class = "UILabel"; text = "确保图片有10%左右的重叠部分"; ObjectID = "TK1-I5-S7M"; */
+"TK1-I5-S7M.text" = "确保图片有10%左右的重叠部分";
+
+/* Class = "UILabel"; text = "自动拼接如果存在误差，可以手动调整哦"; ObjectID = "i3H-hJ-jKW"; */
+"i3H-hJ-jKW.text" = "自动拼接如果存在误差，可以手动调整哦";

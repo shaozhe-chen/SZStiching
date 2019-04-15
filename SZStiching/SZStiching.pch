@@ -1,0 +1,68 @@
+//
+//  SZStiching.pch
+//  SZStiching
+//
+//  Created by chenshaozhe on 2018/11/21.
+//  Copyright © 2018年 chenshaozhe. All rights reserved.
+//
+
+#ifndef SZStiching_pch
+#define SZStiching_pch
+
+#import <UIView+YYAdd.h>
+#import "CAGradientLayer+Gradient.h"
+#import "AdaptationTool.h"
+#import "ZWMGuideView.h"
+#import <Masonry.h>
+#import <CTAssetsPickerController/CTAssetsPickerController.h>
+
+//程序第一次启动，出现新手引导图
+#define GUIDE_SHOW_KEY @"GUIDE_SHOW_KEY"
+#define GUIDE_PRE_SHOW_KEY @"GUIDE_PRE_SHOW_KEY"
+#define EDITORVIEW_SIZE SCALE_VALUE(30)
+
+//屏幕宽度
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCALE_VALUE(value) ((value)*SCREEN_WIDTH/375)
+#define XXT_DRAWER_WIDTH ((SCREEN_WIDTH*2)/3)
+
+//图片加载
+#define LoadImage(imageName) [UIImage imageNamed:(imageName)]
+#define DEFAULT_IMAGE LoadImage(@"xxt_test_pic")
+//色值
+#define RGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define RGB_A(r,g,b,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:(a)]
+#define HexColor(rgbValue) \
+[UIColor colorWithRed:((float)((0x##rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((0x##rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(0x##rgbValue & 0x0000FF))/255.0  alpha:1]
+
+#define GLOABLE_COLOR RGB(33, 46, 66)
+#define GLOABLE_SELECT_COLOR RGB_A(33, 46, 66, 0.5)
+#define GLOABLE_TEXT_COLR RGB(218, 250, 255)//DAFAFF
+#define GLOABLE_TEXT_SELECT_COLOR RGB_A(218, 250, 255, 0.5)
+
+#if DEBUG
+//沙盒测试环境验证
+#define PurchaseUrl @"https://sandbox.itunes.apple.com/verifyReceipt"
+
+#else
+//正式环境验证
+#define PurchaseUrl @"https://buy.itunes.apple.com/verifyReceipt"
+
+#endif
+
+//普通最大图片数
+#define NORMAL_IMAGE_COUNT 4
+//付费最大图片数
+#define PAY_IMAGE_COUNT 8
+//付费加大最大图片数
+#define PAY_PLUS_IMAGE_COUNT 15
+
+//weak 对象
+#define WeakObj(o) try{}@finally{} __weak typeof(o) o##Weak = o;
+//strong 对象
+#define StrongObj(o) autoreleasepool{} __strong typeof(o) o = o##Weak;
+
+//国际化
+#define SZLocalizedString(string) NSLocalizedString(string, nil)
+#endif /* SZStiching_pch */
