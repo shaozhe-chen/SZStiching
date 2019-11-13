@@ -6,6 +6,7 @@
 
 ### 项目运用到的算法
 
+
 ####   一. 提取指纹算法：
    
       1）循环冗余校验码（crc32）
@@ -18,15 +19,14 @@
          (1)将两个字符串分别以行和列组成矩阵。
          (2) 计算每个节点行列字符是否相同，如相同则为 1。
          (3) 通过找出值为 1 的最长对角线即可得到最长公共子串。
-         (https://github.com/shaozhe-chen/SZStiching/blob/master/SZStiching/normal.png)
-         
+####    ![image](https://github.com/shaozhe-chen/SZStiching/blob/master/SZStiching/normal.png)
+
          进一步的优化:
             我们可以将字符相同节点(1)的值加上左上角(d[i-1, j-1])的值，
             这样即可获得最大公用子串的长度。如此一来只需以行号和最大值为条件即可截取最大子串。
-            (https://github.com/shaozhe-chen/SZStiching/blob/master/SZStiching/youhua.png)
+####    ![image](https://github.com/shaozhe-chen/SZStiching/blob/master/SZStiching/youhua.png)
 ####   三. 耗时优化：
    
       1） crc32+灰度公式：使用多线程并发处理，最后在线程同步的时候处理结果
       
       2） 灰度公式：跳点取像素点
-      
